@@ -132,7 +132,11 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MongoDB</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Docker</span>
+                <span className="text-amber-300">Stripe</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Socket</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Swagger</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">AWS</span>
                 <span className="text-gray-400">{"'],"}</span>
