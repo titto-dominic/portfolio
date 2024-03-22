@@ -2,10 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --foreground-rgb: rgb(211, 216, 232);
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Londrina+Shadow&family=Monoton&display=swap');
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -15,6 +16,19 @@
 body {
   color: rgb(var(--foreground-rgb));
   background-color: #0d1224;
+}
+
+.monoton-regular {
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  font-style: normal;
+}
+
+@media only screen and (max-width: 600px) {
+  .monoton-regular {
+    font-size: 35px; /* Adjust the font size for small screens */
+  }
 }
 
 #sticky-card-1 {
