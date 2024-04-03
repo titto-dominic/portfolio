@@ -31,14 +31,18 @@ function ContactSection() {
                 className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={36}
               />
-              <span>{personalData.email}</span>
+              <Link target="_blank" href={"mailto:" + personalData.email}>
+                <span>{personalData.email}</span>
+              </Link>
             </p>
             <p className="text-sm md:text-xl flex items-center gap-3">
               <IoMdCall
                 className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={36}
               />
-              <span>{personalData.phone}</span>
+              <Link target="_blank" href={"tel:" + personalData.phone}>
+                <span>{personalData.phone}</span>
+              </Link>
             </p>
             {/* <p className="text-sm md:text-xl flex items-center gap-3">
               <CiLocationOn
