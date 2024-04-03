@@ -29,7 +29,7 @@ function Education() {
       <div className="flex justify-center my-5 lg:py-8">
         <div className="flex  items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
-          <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
+          <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md exo-2-nav">
             Educations
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
@@ -45,7 +45,7 @@ function Education() {
           </div>
 
           <div>
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-6 exo-2-nav">
               {educations.map((education) => (
                 <GlowCard
                   key={education.id}

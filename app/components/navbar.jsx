@@ -24,7 +24,7 @@ function Navbar() {
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#about"
             >
-              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
+              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600 exo-2-nav">
                 ABOUT
               </div>
             </a>
@@ -34,7 +34,7 @@ function Navbar() {
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#experience"
             >
-              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
+              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600 exo-2-nav">
                 EXPERIENCE
               </div>
             </a>
@@ -44,7 +44,7 @@ function Navbar() {
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#skills"
             >
-              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
+              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600 exo-2-nav">
                 SKILLS
               </div>
             </a>
@@ -65,7 +65,7 @@ function Navbar() {
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#projects"
             >
-              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
+              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600 exo-2-nav">
                 PROJECTS
               </div>
             </a>
@@ -75,7 +75,7 @@ function Navbar() {
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#education"
             >
-              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
+              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600 exo-2-nav">
                 EDUCATION
               </div>
             </a>
